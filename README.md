@@ -1,13 +1,12 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# WDIR-GIZMO
+# wdi-cc2 _funky-ducks
 
 ---
 Title: jQuery Magic <br>
 Type: Homework<br>
 Duration: "4:00+"<br>
 Creator:Karolin Rafalski<br>
-    Course: WDIR-Hopper<br>
 Competencies: create, append/remove elements in the DOM using jQuery, traverse the DOM, add/remove attributes <br>
 Prerequisites: JavaScript, HTML, CSS <br>
 
@@ -20,27 +19,32 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 ## Setup - Get Ready to Make So Much Magic
 
-- Make a folder inside your `homework` folder for w3d03 called `hogwarts`.
+- Make a folder inside your `homework` folder for today called `hogwarts`.
 - `cd` into the `hogwarts` folder
 - `touch index.html`
-- `touch main.css`
-- `touch app.js`
-- `atom .`
+- `mkdir css`
+- `touch css/style.css`
+- `mkdir js`
+- `touch js/app.js`
+- `subl .`
 
 #### In main.css
 
-```
-body {background-color: #F8F7FF}/*or any color of your choosing*/
+```css
+body {
+  background-color: #F8F7FF /*or any color of your choosing*/
+}
 ```
 -  Don't forget to  `⌘S`
 
-#### In app.js
+#### In `app.js`
 
-```
-
+```javascript
 if (typeof jQuery == 'undefined'){
   console.log('oops! I still have to link my jQuery properly!');
-} else {console.log('I did it! I linked jQuery and this js file!')};
+} else {
+  console.log('I did it! I linked jQuery and this js file!')
+};
 
 ```
 
@@ -49,33 +53,30 @@ if (typeof jQuery == 'undefined'){
 
 #### In `index.html`
 - `html` + `tab` set up boilerplate html
-- Add a title inside the `<title>`tags (where will this title appear?)
+- Add a title inside the `<title>` tags (where will this title appear?)
 - Inside the `<head>` tag:  
-  - `<link rel="stylesheet" href="main.css">`
+  - `<link rel="stylesheet" href="css/style.css">`
   
 - Inside the `<body>` tag:
-  -  `<script type="text/javascript" src="app.js"></script>`
+  -  `<script type="text/javascript" src="js/app.js"></script>`
 -  Don't forget to  `⌘S`
 
 #### In terminal
-- `open index.html`
+- `chrome index.html`
 
 #### In the browser
 - `⌘ ⌥ I` - to open Chrome Dev Tools
 - Check: did your background-color for your page load? Do you see your title in the tab? If not, fix it now.
-- Check: did your console.logs log?
+- Check: did your `console.log()`s log?
 
-#### In index.html 
+#### In `index.html` 
 
 - Add a `<div id="container"></div>` inside the `<body>` tags
 
 Add jQuery (where? Does it matter? Not sure? Test it!):
 
- ```
- <script
-src="https://code.jquery.com/jquery-3.2.0.min.js"
-integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
-crossorigin="anonymous"></script>
+ ```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 ```
 
 - don't forget to  `⌘S`
@@ -83,10 +84,10 @@ crossorigin="anonymous"></script>
 
 #### In the browser 
 - `⌘R` to refresh/reload the page
-- Check: console.log logging correctly? If not, fix it now
+- Check: Is `console.log` logging correctly? If not, fix it now
 
 
-#### In app.js
+#### In `app.js`
 - comment out or delete your console.logs, now that you know everything is linked and loaded correctly.
 - Set up your workflow, you will be going between your `index.html` `app.js` files, your browser and these instructions - make it so you don't need to move your windows every time you need to change
 - Nice work!
@@ -108,7 +109,7 @@ crossorigin="anonymous"></script>
 
 - Make sure that your pages loads completely before you start using magical jQuery by adding
 
-#### In app.js 
+#### In `app.js`
 
  - 
 ```
@@ -131,7 +132,7 @@ crossorigin="anonymous"></script>
 
 - **It's magic! Isn't it?**
 
--  In your `main.css` file, add a css rule where all text will align center inside the `body`
+-  In your `style.css` file, add a css rule where all text will align center inside the `body`
 
 <details><summary>Test yourself</summary>
 
@@ -152,7 +153,7 @@ Following what you did in Year 1, add the following:
 - `h4` element with your pet's name
 	- this `h4` element should have a class with a value of your pet type (owl, cat, toad, etc)
 - `h4` element with your wand (You can make it whatever you want. Need help coming up with one? Here is one of many websites to help you find your wand [playbuzz.com](http://www.playbuzz.com/terryraynor10/which-wand-would-you-be-given-in-the-world-of-harry-potter) )
-- In your `main.css` add an attribute of `font-family: fantasy;` to all elements that have a class that matches your pet's class
+- In your `style.css` add an attribute of `font-family: fantasy;` to all elements that have a class that matches your pet's class
   
  <details><summary>Test yourself</summary>
  
@@ -178,9 +179,9 @@ Following what you did in previous years, add the following into an unordered li
     - leash (for your pet, be sure to give this list element the same class as you gave your pet)
     - Bertie Bott's Every Flavor [Jelly] Beans.
     - append the unordered list to your container div
-   - In your `main.css` file, give the items with a class of secret an attribute of `opacity: 0.5;`
+   - In your `style.css` file, give the items with a class of secret an attribute of `opacity: 0.5;`
    
-   - In your `main.css` file, remove the bullet points from the list items
+   - In your `style.css` file, remove the bullet points from the list items
    
 <details><summary>Test yourself</summary>
 Your HTML structure should look like this 
@@ -211,8 +212,8 @@ You want to show off how many classes you are taking
   	- in the first `td` add the day Monday 
 	- in the second `td` add the classes you are taking ( Herbology, Divination, History of Magic, Charms, Potions, Transfiguration, Defense Against the Dark Arts, Quidditch practice, etc.)
   - Create more `tr` elements with `td`s inside so that you have Monday - Friday and classes each of those days
-  - In your `main.css` file, add a gray 1px solid border around your `table`, `th` elements and `td` elements 
-  - In your `main.css` file, add a rule that will center your `table` on the page 
+  - In your `style.css` file, add a gray 1px solid border around your `table`, `th` elements and `td` elements 
+  - In your `style.css` file, add a rule that will center your `table` on the page 
   
 
 <details><summary>Test yourself</summary>
@@ -237,7 +238,7 @@ Things get interesting
 - Break your wand! (select the element that contains your wand and remove it)
 - Class was hard! Drink all your butter beer! (remove just the butter beer from your list)
 - Get a new wand (add the same element back with new text describing your new wand. Be sure to insert it after your pet in the DOM)
-- Make your new wand stand out by adding a `color` of `indigo` (or whatever color you like). But do it with magic (jQuery): Don't add this css in your `main.css` file
+- Make your new wand stand out by adding a `color` of `indigo` (or whatever color you like). But do it with magic (jQuery): Don't add this css in your `style.css` file
 - Send your pet on a spy mission (remove your pet from the DOM, put it somewhere else in your HTML). Make sure your pet's leash stays in your trunk (list item with the same class as your pet inside `unordered list`)
 - Have your pet come back (remove your pet from the DOM, put it back in its original location)
 
@@ -255,7 +256,7 @@ School is so fun!
 - Use jQuery method `show` to reveal all of your belongings with a class of secret (give an argument of 'slow' - to see this function in action)
 - Accident! You transmogrified your pet's leash into half cabbage
   - add the class cabbage to your pet's leash. Do not replace your pet's leash's original class.  Your pet, which also has the same class should remain unaffected
-  - add an attribute of `color:CHARTREUSE;` in your `main.css` for all elements that have a class of cabbage
+  - add an attribute of `color: chartreuse;` in your `style.css` for all elements that have a class of cabbage
 - Fix your pet's leash by removing the class of cabbage (be sure to keep your pet's leash's original class)
 
 <hr>
