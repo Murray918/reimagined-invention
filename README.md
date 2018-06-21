@@ -1,6 +1,6 @@
 ![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
-# wdi-cc2 _funky-ducks
+# wdi-cc2 _funky-ducks_
 
 ---
 Title: jQuery Magic <br>
