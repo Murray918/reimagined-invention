@@ -1,7 +1,5 @@
 ![ga](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# wdi-cc2 _funky-ducks_
-
 ---
 Title: jQuery Magic <br>
 Type: Homework<br>
@@ -19,78 +17,13 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 ## Setup - Get Ready to Make So Much Magic
 
-- Make a folder inside your `homework` folder for today called `hogwarts`.
-- `cd` into the `hogwarts` folder
-- `touch index.html`
-- `mkdir css`
-- `touch css/style.css`
-- `mkdir js`
-- `touch js/app.js`
-- `subl .`
+- Make a folder inside your `homework` folder for today called `hogwarts` and make the html/css/js file structure and link up jQuery with the cdn.
 
-#### In main.css
-
-```css
-body {
-  background-color: #F8F7FF /*or any color of your choosing*/
-}
-```
--  Don't forget to  `⌘S`
-
-#### In `app.js`
-
-```javascript
-if (typeof jQuery == 'undefined'){
-  console.log('oops! I still have to link my jQuery properly!');
-} else {
-  console.log('I did it! I linked jQuery and this js file!')
-};
-
-```
-
-
--  Don't forget to  `⌘S`
-
-#### In `index.html`
-- `html` + `tab` set up boilerplate html
-- Add a title inside the `<title>` tags (where will this title appear?)
-- Inside the `<head>` tag:  
-  - `<link rel="stylesheet" href="css/style.css">`
-  
-- Inside the `<body>` tag:
-  -  `<script type="text/javascript" src="js/app.js"></script>`
--  Don't forget to  `⌘S`
-
-#### In terminal
-- `chrome index.html`
-
-#### In the browser
-- `⌘ ⌥ I` - to open Chrome Dev Tools
-- Check: did your background-color for your page load? Do you see your title in the tab? If not, fix it now.
-- Check: did your `console.log()`s log?
 
 #### In `index.html` 
 
 - Add a `<div id="container"></div>` inside the `<body>` tags
 
-Add jQuery (where? Does it matter? Not sure? Test it!):
-
- ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-```
-
-- don't forget to  `⌘S`
-
-
-#### In the browser 
-- `⌘R` to refresh/reload the page
-- Check: Is `console.log` logging correctly? If not, fix it now
-
-
-#### In `app.js`
-- comment out or delete your console.logs, now that you know everything is linked and loaded correctly.
-- Set up your workflow, you will be going between your `index.html` `app.js` files, your browser and these instructions - make it so you don't need to move your windows every time you need to change
-- Nice work!
 
 
 <hr>
@@ -111,12 +44,6 @@ Add jQuery (where? Does it matter? Not sure? Test it!):
 
 #### In `app.js`
 
- - 
-```
- $(() => {
-	// put jQuery in here
-});
-```
 - Query for your div with the `id` of `container` and set it to a variable named `$container`
 - console.log `$container`
 - Create an `<h1>` element and set it to a variable called `$h1` and console log it
