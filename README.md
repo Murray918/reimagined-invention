@@ -1,10 +1,12 @@
 ![ga](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+# jQuery Magic
+
 ---
 Title: jQuery Magic <br>
 Type: Homework<br>
 Duration: "4:00+"<br>
-Creator:Karolin Rafalski<br>
+Creator: Karolin Rafalski<br>
 Competencies: create, append/remove elements in the DOM using jQuery, traverse the DOM, add/remove attributes <br>
 Prerequisites: JavaScript, HTML, CSS <br>
 
@@ -36,7 +38,7 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 ## Year 1
 
-**Important** : You are encouraged to comment out console.logs that you no longer need. There will be no further prompts for this advice.
+**Important**: As always, use console.logs all the time and log everything.  But you should remove (or comment out) console.logs that you no longer need. There will be no further prompts for this advice.
 
 - [Open up your jQuery magic markdown file](https://github.com/ga-students/wdi-remote-gizmo/blob/master/unit_1/w03d03/instructor_notes/jQuery_cheat_sheet.md )- for reference
 
