@@ -2,7 +2,6 @@
 
 # jQuery Magic
 
----
 Title: jQuery Magic <br>
 Type: Homework<br>
 Duration: "4:00+"<br>
@@ -10,6 +9,7 @@ Creator: Karolin Rafalski<br>
 Competencies: create, append/remove elements in the DOM using jQuery, traverse the DOM, add/remove attributes <br>
 Prerequisites: JavaScript, HTML, CSS <br>
 
+---
 
 ## Intro
 
@@ -30,7 +30,7 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 0 - All my files are linked and loaded"
+"All my files are linked and loaded"
 <hr>
 
 
@@ -61,7 +61,7 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 - **It's magic! Isn't it?**
 
--  In your `style.css` file, add a css rule where all text will align center inside the `body`
+- In your `style.css` file, add a css rule where all text will align center inside the `body`
 
 <details><summary>Test yourself</summary>
 
@@ -72,7 +72,7 @@ Your HTML structure should look like this ![image of dev console elements](https
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 1 - I added my first element and it was fun"
+"I added my first element and it was fun"
 <hr>
 
 ## Year 2
@@ -95,7 +95,7 @@ Following what you did in Year 1, add the following:
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 2 - I added more elements. My power grows with my dedication and hard work"
+"Added more elements. My power grows with my dedication and hard work."
 <hr>
 
 ## Year 3
@@ -121,7 +121,7 @@ Your HTML structure should look like this
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 3 - I added list elements. That code didn't seem very dry. I wonder if there is something I could do about it in the Hungry for More section"
+"Added list elements. That code didn't seem very DRY. I wonder if Hungry for More will have me DRY it up a bit."
 <hr>
 
 ## Year 4
@@ -157,7 +157,7 @@ Your HTML structure should look like this
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 4 - I realize I can make things that are ever increasingly more complex with greater ease. Adding order is always more effort than causing chaos"
+"I realize I can make things that are increasingly more complex with greater ease. Adding order is always more effort than causing chaos."
 <hr>
 
 ## Year 5
@@ -173,7 +173,7 @@ Things get interesting
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 5 - The days go by slowly and the years go by too fast"
+"The days go by slowly and the years go by too fast"
 <hr>
 
 ## Year 6
@@ -190,7 +190,7 @@ School is so fun!
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 6 - A cauliflower is a cabbage with a college education - Mark Twain"
+"A cauliflower is a cabbage with a college education - Mark Twain"
 <hr>
 
 ## Year 7
@@ -204,12 +204,12 @@ Though your time at Hogwarts is nearly over, your journey of learning has just b
 
 <hr>
 &#x1F534; The commit message should read: <br>
-"Commit 7 - I am getting more comfortable with ambiguous instructions"
+"I am getting more comfortable with ambiguous instructions"
 <hr>
 
 ## Post-Graduation (Hungry for More - choose any)
 - Research how to and then [add a Favicon](https://bitsofco.de/all-about-favicons-and-touch-icons/)  (ok to hard code this in your `index.html`) 
-- Refactor your code. Make it more dry. Are there places you could have used a for loop? Functions you could have created? Any jQuery functions you could have chained?
+- Refactor your code. Make it more DRY. Are there places you could have used a for loop? Functions you could have created? Any jQuery functions you could have chained?
 - Clean up your code. Check indentation be sure you have plenty of comments
 - Add more delays to show your pet leaving and coming back from its mission Get inspiration [here](https://youtu.be/7GjssFdiUNw)
 - Add CSS animations. We havn't covered them yet. Get inspiration [here](http://animista.net/)
