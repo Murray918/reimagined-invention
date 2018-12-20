@@ -19,8 +19,10 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 ## Setup - Get Ready to Make So Much Magic
 
-- Make a folder inside your `homework` folder for today called `hogwarts` and make the html/css/js file structure and link up jQuery with the cdn.
-
+- Do the normal things Fork, Clone, and all of your normal stuff. create three files in the folder<br>
+ `app.js` <br>
+ `index.html`<br>
+ `style.css`<br>
 
 #### In `index.html` 
 
@@ -40,7 +42,8 @@ This homework is recommended to be done with a Harry Potter theme. But if you ar
 
 **Important**: As always, use console.logs all the time and log everything.  But you should remove (or comment out) console.logs that you no longer need. There will be no further prompts for this advice.
 
-- [Open up your jQuery magic markdown file](https://github.com/ga-students/wdi-remote-gizmo/blob/master/unit_1/w03d03/instructor_notes/jQuery_cheat_sheet.md )- for reference
+- [Open up your jQuery cheat sheet](https://oscarotero.com/jquery/)- for reference you can click on one of the methods and it will open the documentation do not get caught up in this document.
+
 
 - Make sure that your pages loads completely before you start using magical jQuery by adding
 
