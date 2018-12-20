@@ -2,8 +2,8 @@ const $ = jQuery;
 
 const array = ["Hello", "Goodbye", "Party Time"];
 
-const html = `
-<div>
+//const html = `
+//<div>
 
 
 
@@ -11,7 +11,7 @@ const html = `
 
 
 
-`
+//`
 
 
 const list = `<ul><ul>`
