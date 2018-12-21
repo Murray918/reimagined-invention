@@ -1,5 +1,6 @@
 body {
     text-align: center;
+
 }
 
 .bunny {
@@ -11,4 +12,14 @@ body {
 }
 ul {
 	list-style-type: none;
+}
+table {
+	 border: 1px solid black;
+	 margin: 0 auto;
+}
+th {
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
 }
