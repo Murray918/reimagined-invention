@@ -1,7 +1,14 @@
-body {
+body 
     text-align: center;
 }
 
 .dog {
     font-family: fantasy;
+}
+ul {
+	list-style: none;
+}
+
+.Secret {
+	opacity: 0.5;
 }
