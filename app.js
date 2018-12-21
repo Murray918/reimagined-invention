@@ -19,9 +19,8 @@ let list = "<ul storage = 'trunk'>"+
             "</ul>"
 container.append(list)
 
-for(i = 1; i <=3; i++){
-	$(`li:eq(${i})`).addClass('secret')
-}
+$("li:eq(1), li:eq(2), li:eq(3)").addClass('secret')
+
 
 let table = "<table>"+
 			    "<thead>"+
@@ -64,25 +63,5 @@ $(".secret").hide('slow').delay(2000).show('slow')
 $("li:eq(3)").addClass('cabbage')
 $("li:eq(3)").removeClass('cabbage')
 $("h5").text('Fall 2018')
-$(".secret").prepend("<li>Butter Beer</li>")
+$("[storage*=trunk]").prepend("<li>Butter Beer</li>")
 $("[storage*=trunk]").attr("storage", 'Chest')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
