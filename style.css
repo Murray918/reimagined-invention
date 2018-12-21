@@ -13,3 +13,9 @@ body{
 li{
 	list-style: none;
 }
+table, th, td{
+	border: 1px solid gray;
+}
+table{
+	margin: 0 auto;
+}

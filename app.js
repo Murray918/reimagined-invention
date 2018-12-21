@@ -24,6 +24,53 @@ $("li:eq(2)").addClass("secret")
 $("li:eq(3)").addClass("secret")
 $("li:eq(4)").addClass("Cat")
 
+let table = '<table>'+
+			'<thead>'+
+				'<th>Day</th>'+
+				'<th>Classes</th>'+
+        	'<tr>' +
+        		'<td>Monday</td>'+
+        		'<td>Herbology</td>'+
+            '</tr>'+
+        	'<tr>' +
+        		'<td>Tuesday</td>'+
+        		'<td>Divination</td>'+
+            '</tr>'+
+            '<tr>' +
+        		'<td>Wednesday</td>'+
+        		'<td>History of Magic</td>'+
+            '</tr>'+
+            '<tr>' +
+        		'<td>Thursday</td>'+
+        		'<td>Charms</td>'+
+            '</tr>'+
+            '<tr>' +
+        		'<td>Friday</td>'+
+        		'<td>Potions</td>'+
+            '</tr>'+
+        	'</thead>'+
+        	'</table>'
+container.append("<h5> Spring 2017</h5>")
+container.append(table)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
