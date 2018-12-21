@@ -62,7 +62,7 @@ In your style.css file, remove the bullet points from the list items
 */
 
 let ul = [ "<ul><li>butter beer</li>", "<li>invisibility cloak</li>", "<li>magic map</li>", 
-			  "<li>time turner</li>", "<li>leash Fred</li>", "<li>Bertie Bott's Every Flavor [Jelly] Beans.</li></ul>" ].join(" ");
+			  "<li>time turner</li>", "<li>leash</li>", "<li>Bertie Bott's Every Flavor [Jelly] Beans.</li></ul>" ].join(" ");
 
 let $ul = $(ul).attr("storage","trunk");
 container.append($ul);
@@ -91,8 +91,6 @@ in the second td add the classes you are taking ( Herbology, Divination, History
 Create more tr elements with tds inside so that you have Monday - Friday and classes each of those days
 In your style.css file, add a gray 1px solid border around your table, th elements and td elements
 In your style.css file, add a rule that will center your table on the page
-
-
 */
 
 let p = " \
@@ -129,6 +127,38 @@ let h5 = $('<h5></h5>');
 h5.append("Winter 2018");
 container.append(h5);
 container.append(p);
+
+
+/*
+Things get interesting
+
+Break your wand! (select the element that contains your wand and remove it)
+Class was hard! Drink all your butter beer! (remove just the butter beer from your list)
+Get a new wand (add the same element back with new text describing your new wand. Be sure to insert it after your pet in the DOM)
+Make your new wand stand out by adding a color of indigo (or whatever color you like). But do it with magic (jQuery): Don't add this css in your style.css file
+Send your pet on a spy mission (remove your pet from the DOM, put it somewhere else in your HTML). 
+   Make sure your pet's leash stays in your trunk (list item with the same class as your pet inside unordered list)
+Have your pet come back (remove your pet from the DOM, put it back in its original location)
+*/
+
+
+$( "h4" ).eq(-1).remove()
+$( "li" ).remove( ":contains('beer')" );
+$( "<h4>My New Wand</h4>" ).insertAfter( $( ".bunny" ).eq(0));
+$( "h4" ).eq(1).css("color", "blue");
+$( "h4" ).filter(".bunny").text("");
+$( "h4" ).filter(".bunny").append("Fred Came Back");
+
+
+
+
+
+
+
+
+
+
+//$( "li" ).filter( ":contains('leash')" ).text("leash");
 
 //let $table = 
 
