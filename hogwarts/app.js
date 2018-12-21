@@ -77,4 +77,17 @@ $('.secret').delay(2000).hide("slow")
 $('.secret').show("slow")
 $('li:nth-of-type(4)').toggleClass("cabbage")
 $('li:nth-of-type(4)').removeClass("cabbage")
+$('h5').replaceWith("<h5>Fall 2018</h5>")
+$('li:first-of-type').append().before("<li>Butter Beer</li>")
+$('li:first-of-type').addClass("trunk")
+$('ul').removeAttr()
+$('ul').attr("storage","chest")
+
+
+
+
+
+
+
+
 
