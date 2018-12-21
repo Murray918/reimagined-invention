@@ -2,6 +2,13 @@ body {
 	text-align: center;
 }
 
-.demon{
+ul{
+ list-style-type: none;
+ }
+
+.demon {
 	font-family: fantasy;
+}
+.secret{
+	opacity: 0.5;
 }

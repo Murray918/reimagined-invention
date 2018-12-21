@@ -9,4 +9,7 @@ let $h4 = '<h4 class="demon">Ördög the Hungarian shapeshifting demon</h4><h4>H
 
 
 $container.append($h2).append($h3).append($h4)
-console.log($h2,$h3,$h4)
+
+let $ul = "<ul><li>butter beer</li><li class='secret'>invisibility cloak</li><li class='secret'>magic map</li><li class ='secret'>time turner</li><li class='demon'>leash</li><li>Bertie Bott's Every Flavor [Jelly] Beans.</li>"
+
+$container.append($ul)
