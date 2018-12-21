@@ -44,8 +44,41 @@ let h4Wand = $('<h4></h4>');
 h4Wand.append("MegaSwampGator Wand");
 container.append(h4Wand);
 
+/*
+Following what you did in previous years, add the following into an unordered list (with the attribute of storage and a value of trunk):
+
+list items of
+
+butter beer
+invisibility cloak (add a class of secret)
+magic map (add a class of secret)
+time turner (add a class of secret)
+leash (for your pet, be sure to give this list element the same class as you gave your pet)
+Bertie Bott's Every Flavor [Jelly] Beans.
+append the unordered list to your container div
+In your style.css file, give the items with a class of secret an attribute of opacity: 0.5;
+
+In your style.css file, remove the bullet points from the list items
+*/
+
+let ul = [ "<ul><li>butter beer</li>", "<li>invisibility cloak</li>", "<li>magic map</li>", 
+			  "<li>time turner</li>", "<li>leash Fred</li>", "<li>Bertie Bott's Every Flavor [Jelly] Beans.</li></ul>" ].join(" ");
+
+let $ul = $(ul).attr("storage","trunk");
+container.append($ul);
+
+let $list = $("li");
+console.log($list);
+
+$list.eq(1).addClass("secret");
+//$("your-pure-css-selector").eq(index)
+//$( "li:eq(-2)" ).addClass( "foo" )
+$list.eq(2).addClass("secret");
+$list.eq(3).addClass("secret");
+$list.eq(4).addClass("bunny");
 
 
+//$("#myimg").attr("src", "/jquery/images/jquery.jpg");
 
 
 //h4:eq(0)
