@@ -2,6 +2,5 @@
 .secret { opacity: 0.5; }
 .cabbage { color: chartreuse; }
 li { list-style-type: none; }
-table { margin: 0 auto; }
 table, th, td { border-style: solid; border-width: 1px }
 body { text-align: center; }
