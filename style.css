@@ -4,8 +4,14 @@ body {
 .cat{
     font-family: fantasy;
 }
-.secret{
-	opacity: 0.5;
+ul{
 	text-decoration: none;
 	list-style: none;
+}
+.secret{
+	opacity: 0.5;
+}
+table, th, td{
+	border:1px solid grey;
+	margin: 0 auto;
 }
