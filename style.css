@@ -4,3 +4,8 @@ body {
 .cat{
     font-family: fantasy;
 }
+.secret{
+	opacity: 0.5;
+	text-decoration: none;
+	list-style: none;
+}
