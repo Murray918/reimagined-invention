@@ -7,3 +7,9 @@ body{
  .boo{
  	font-family: fantasy;
  }
+.secret{
+	opacity: .05;
+}
+li{
+	list-style: none;
+}
