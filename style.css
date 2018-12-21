@@ -1,0 +1,29 @@
+
+body{
+	text-align: center;
+} 
+
+li{
+	list-style-type: none;
+}
+
+.hippo{
+	font-family: fantasy;
+}
+
+.secret{
+    opacity: 0.5;
+
+}
+
+.cabbage{
+	color: chartreuse;
+}
+
+table, th, td{
+	border-bottom: 1px solid grey;
+}
+
+table{
+	margin: 0 auto;
+}
