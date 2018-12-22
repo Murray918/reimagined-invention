@@ -27,6 +27,9 @@ $(".secret").hide("slow").delay(2000)
 $(".secret").show("slow")
 $(".leash").addClass("Cabbage")
 $(".leash").removeClass("Cabbage")
+$("ul").prepend("<li>Beer Butter</li>").val("trunk")
+$("ul > li").val("chest")
+
 console.log($(".wand"))
 
 
