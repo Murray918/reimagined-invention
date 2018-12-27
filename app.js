@@ -27,6 +27,9 @@ $('ul li').eq(3).addClass('cabbage')
 $('ul li').eq(3).removeClass('cabbage')
 $container.find('h4').eq(0).appendTo('h1')
 $container.find('h4').appendTo('h3')
+$('h5').text('Fall 2018')
+$('ul').prepend('<li>butter beer</li>')
+$('ul').addClass('chest')
 
 
 
