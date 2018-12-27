@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+
+}
+
+.bunny {
+	font-family: fantasy;
+}
+
+.secret {
+	opacity: 0.5;
+}
+ul {
+	list-style-type: none;
+}
+table {
+	 border: 1px solid black;
+	 margin: 10px auto;
+	 padding: 1px;
+}
+th {
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+}
+.cabbage
+{
+	color: chartreuse;
+}
