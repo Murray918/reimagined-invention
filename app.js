@@ -25,6 +25,9 @@ $('h4').last().css({'color':'green'})
 $('ul li.secret').hide('slow').delay(2000).show(2000)
 $('ul li').eq(3).addClass('cabbage')
 $('ul li').eq(3).removeClass('cabbage')
+$container.find('h4').eq(0).appendTo('h1')
+$container.find('h4').appendTo('h3')
+
 
 
 
