@@ -149,7 +149,7 @@ for (let days of day)
 let concatTable = $("<table><thead>" + $header + "</thead><tbody>" + $days1 + "</tbody></table>")
 
 let h5 = $('<h5></h5>');
-h5.append("Fall 2018");  //changed this to fall becuase I will change this to winter below.
+h5.append("Winter 2018");  //changed this to Winter becuase I will change this to Fall below.
 container.append(h5);
 container.append(p);  //this one is the hand made table
 container.append(concatTable);  //this one is the loop made table
@@ -208,6 +208,12 @@ Celebrate by buying more butter beer! Append a list item with the text 'Butter b
 Whoops! You broke your trunk when you stood on it while singing karaoke. Get a new storage container for your stuff; replace the unodered list's property of trunk with a new property of chest
 Add some CSS to your page. Feel free to experiment and make this page your own
 */
+
+window.setTimeout(() =>{ $( "h5" ).replaceWith("<h5>Fall 2018</h5>"); },5000);
+$( "ul" ).prepend( "<li>Butter Beer</li>" );   //.attr("storage","trunk");
+$( "li:contains('Beer')" ).attr("storage","trunk");
+$( "ul" ).attr("storage","chest");
+container.css('background-image', 'url("harry_potter.png")');
 
 
 
