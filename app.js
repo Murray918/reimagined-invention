@@ -27,8 +27,8 @@ let list = $('<ul storage="trunk"></ul>');
 // better way for practicing jquery methods and selectors
 container.append(list);
 $(list).append('<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>')
-$("li:nth-of-type(1)").append("Butter Bear");
-$("li:nth-of-type(2)").append("Invisibility Cloak").addClass("secret");;
+$("li:eq(0)").append("Butter Bear");
+$("li:eq(1)").append("Invisibility Cloak").addClass("secret");;
 $("li:nth-of-type(3)").append("Magic Map").addClass("secret");
 $("li:nth-of-type(4)").append("Time Turner").addClass("secret");
 $("li:nth-of-type(5)").append("Bertie Bott's Every Flavor [Jelly] Beans");
@@ -41,9 +41,9 @@ container.append('<h5></h5>').append("<table></table>");
 $("h5").append("Spring 2017");
 
 // create table header with names for colums"
-$("table").append('<thead><th></th><th></th></thead>')
-$("th:nth-of-type(1)").append("Day");
-$("th:nth-of-type(2)").append("Classes");
+$("table").append("<thead><th></th><th></th></thead>");
+$("th:eq(0)").append("Day");
+$("th:eq(1)").append("Classes");
 
 // add first row, with name of day and classes
 $("table").append('<tr><td></td><td></td></tr>'); 
@@ -69,3 +69,28 @@ $("tr:nth-of-type(4) td:nth-of-type(2)").append("Divination, Charms, Defence Aga
 $("table").append('<tr><td></td><td></td></tr>');
 $("tr:nth-of-type(5) td:nth-of-type(1)").append("Friday");
 $("tr:nth-of-type(5) td:nth-of-type(2)").append("Herbology, Transfiguration, Potions, History of Magic");
+
+// remove wand element to be re-added at a later time
+$("h4:nth-of-type(2)").detach();
+
+// remove butter bear li element
+$("li:eq(0)").remove();
+
+// add wand back to its original place
+$("h4:eq(0)").after(wand);
+
+// use jQuery to add color to wand element
+$("h4:nth-of-type(2)").css({"color": "indigo"});
+
+// move pet element elsewhere in page
+$(".cat:eq(0)").detach().appendTo("body");
+$(".cat:eq(1)").detach().insertAfter("h3:eq(0)");
+
+
+
+
+
+
+
+
+
