@@ -84,7 +84,16 @@ $("h4:nth-of-type(2)").css({"color": "indigo"});
 
 // move pet element elsewhere in page
 $(".cat:eq(0)").detach().appendTo("body");
+
+// insert pet in new place in different place in DOM
 $(".cat:eq(1)").detach().insertAfter("h3:eq(0)");
+
+// hide cat and show again after a slight delay
+$(".secret").hide("slow").delay(2000).show("slow");
+
+// add class of "cabbage" to the leash
+$("li.cat").addClass("cabbage");
+$("li.cat").removeClass("cabbage");
 
 
 

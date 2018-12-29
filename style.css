@@ -3,13 +3,6 @@ body * {
 	text-align: center;
 }
 
-.cat {
-	font-family: fantasy;
-}
-
-.secret {
-	opacity: 0.5;
-}
  li {
  	list-style-type: none;
  }
@@ -17,3 +10,15 @@ body * {
  table, th, td {
  	border: grey 1px solid;
  }
+
+ .cat {
+	font-family: fantasy;
+}
+
+.secret {
+	opacity: 0.5;
+}
+
+.cabbage {
+	color: chartreuse;
+}
