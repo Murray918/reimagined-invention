@@ -26,7 +26,10 @@ let list = $('<ul storage="trunk"></ul>');
 
 // better way for practicing jquery methods and selectors
 container.append(list);
-$(list).append('<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>')
+for (let i=0; i<6; i++) {
+	$(list).append('<li></li>')
+}
+// $(list).append('<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>', '<li></li>')
 $("li:eq(0)").append("Butter Bear");
 $("li:eq(1)").append("Invisibility Cloak").addClass("secret");;
 $("li:nth-of-type(3)").append("Magic Map").addClass("secret");
@@ -94,6 +97,17 @@ $(".secret").hide("slow").delay(2000).show("slow");
 // add class of "cabbage" to the leash
 $("li.cat").addClass("cabbage");
 $("li.cat").removeClass("cabbage");
+
+// update semester
+$("h5").replaceWith("<h5>Fall 2018</h5>");
+
+// add a new butterbeer to the top of the unorderd list
+$("li:first-of-type").before("<li>Butter beer</li>");
+
+// replace value of unordered list's "storage" attribute to "chest"
+$("ul").attr("storage", "chest");
+
+
 
 
 
