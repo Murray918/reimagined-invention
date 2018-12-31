@@ -1,0 +1,24 @@
+body {
+	background-color: salmon;
+}
+#container{
+	margin: auto;
+  	width: 50%;
+}
+.cat{
+    font-family: fantasy;
+}
+ul{
+	text-decoration: none;
+	list-style: none;
+	padding: 0;
+}
+.secret{
+	opacity: 0.5;
+}
+table, th, td{
+	border:1px solid grey;
+}
+.cabbage{
+	color: chartreuse;
+}
