@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+.dog {
+    font-family: fantasy;
+}
+
+ul {
+    list-style: none;
+}
+
+.Secret {
+    opacity: 0.5;
+}
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+ table, th, td {
+ 	border: 1px solid gray;
+ 	border-color: black;
+ }
