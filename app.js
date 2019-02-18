@@ -6,7 +6,7 @@ container.append(h2)
 let h3 = '<h3> Gryffindor(?)</h3>'
 container.append(h3)
 let h4 = '<h4 class = "dog">Jadah Pinkett Smith</h4>'+
-		 '<h4>Aspen Wood, Dragon Core, 11 inches</h4>'
+		 '<h4 class = "wand">Aspen Wood, Dragon Core, 11 inches</h4>'
 container.append(h4)
 let ul = '<ul storage= "Trunk">'+
 			'<li>Butter Beer</li>'+
@@ -19,7 +19,37 @@ let ul = '<ul storage= "Trunk">'+
 container.append(ul)
 let h5 = '<h5>Spring 2017</h5>'
 container.append(h5)
-let table = '<table class="center"><thead><th>Day</th><th>Classes</th></thead><tr><td>Monday</td><td>Charms</td></tr><tr><td>Tuesday</td><td>Herbology</td></tr><tr><td>Wednesday</td><td>Divination</td></tr><tr><td>Thursday</td><td>Potions</td></tr><tr><td>Friday</td><td>Physical Education</td></tr></table>'
+let table = '<table class="center">'+
+				'<thead>'+
+					'<th>Day</th>'+
+					'<th>Classes</th>'+
+				'</thead>'+
+					'<tr>'+
+						'<td>Monday</td>'+
+						'<td>Charms</td>'+
+					'</tr>'+
+					'<tr>'+
+						'<td>Tuesday</td>'+
+						'<td>Herbology</td>'+
+					'</tr>'+
+					'<tr>'+
+						'<td>Wednesday</td>'+
+						'<td>Divination</td>'+
+					'</tr><tr>'+
+						'<td>Thursday</td>'+
+						'<td>Potions</td>'+
+					'</tr><tr>'+
+						'<td>Friday</td>'+
+						'<td>Physical Education</td>'+
+					'</tr>'+
+			'</table>'
 container.append(table)
-
+$('h4').remove(".wand")
+$('li:eq(0)').remove()
+$('h4').after('<h4 class = "wand">MAGIC WAAAAND</h4>')
+$(".wand").css('color', 'red')
+$('h4').hide('.dog')
+$('h1').append('<h4 class = "dog">Jadah Pinkett Smith</h4>')
+$('h1').hide('<h4 class = "dog">Jadah Pinkett Smith</h4>')
+$('h4').show('.dog')
 console.log(container)
